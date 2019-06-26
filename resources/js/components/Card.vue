@@ -49,7 +49,7 @@ export default {
         return {
             fileName: '',
             file: null,
-            label: 'no file selected',
+            label: this.__('no file selected'),
             working: false,
             errors: null,
         };
